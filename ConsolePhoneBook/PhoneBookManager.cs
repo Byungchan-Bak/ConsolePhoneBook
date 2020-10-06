@@ -32,7 +32,6 @@ namespace ConsolePhoneBook
         HashSet<PhoneInfo> infoStorage = new HashSet<PhoneInfo>();
         readonly string fileName = "PhoneBookList.dat"; //저장될 파일
 
-        int curCnt; //현재 저장된 전화번호 수
         public bool[] error = new bool[4]; //오류 번호
 
         public void ShowMenu()
